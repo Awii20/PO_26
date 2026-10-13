@@ -1,0 +1,40 @@
+Klasa: Książka
+
+Stan:
+tytuł
+autor
+ISBN
+rok wydania
+
+Odpowiedzialności:
+przechowywanie informacji o książce
+
+
+
+Klasa: Czytelnik
+
+Stan:
+imię
+nazwisko
+numer karty bibliotecznej
+
+Odpowiedzialności:
+przechowywanie informacji o czytelniku
+
+
+
+Klasa: Wypożyczenie
+
+Stan:
+data wypożyczenia
+termin zwrotu
+przypisany czytelnik
+przypisana książka
+
+Odpowiedzialności:
+pamiętanie kto, co i do kiedy wypożyczył
+
+
+Zależności pomiędzy obiektami:
+Klasa Wypożyczenie łączy klasę Czytelnik i klasę Książka.
+Czytelnik może mieć przypisane Wypożyczenie, a Książka jest częścią Wypożyczenia.
