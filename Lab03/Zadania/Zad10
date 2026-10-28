@@ -1,0 +1,7 @@
+studentName w klasie Student, - instancyjny - Każdy student ma własne, unikalne imię, więc wartość ta musi należeć do konkretnego obiektu, a nie być dzielona przez wszystkich studentów.
+numberOfStudents w klasie Student, - statyczny - Pole to pełni rolę globalnego licznika wszystkich utworzonych obiektów studenta, dlatego powinno być współdzielone na poziomie całej klasy.
+PI w klasie matematycznej, - statyczny - Jest to uniwersalna, niezmienna stała matematyczna, do której dostęp powinien być możliwy bez konieczności tworzenia egzemplarza klasy.
+balance w klasie BankAccount, - instancyjny - Każde konto bankowe posiada swój indywidualny stan środków, który zmienia się niezależnie od salda innych kont.
+calculateVat(double price) w bezstanowej klasie pomocniczej, - statyczny - Wynik metody zależy wyłącznie od przekazanego argumentu i nie wymaga przechowywania ani modyfikowania stanu obiektu.
+carMileage w klasie Car, -  instancyjny - Przebieg jest unikalną właściwością każdego pojedynczego pojazdu, dlatego musi być powiązany z konkretną instancją klasy.
+MAX_LOGIN_ATTEMPTS w klasie LoginPolicy. - statyczny - Jest to globalna stała konfiguracyjna reprezentująca regułę wspólną dla całej aplikacji, więc nie ma potrzeby powielania jej w obiektach.
